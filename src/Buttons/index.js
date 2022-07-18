@@ -1,6 +1,9 @@
 import "./style.css";
 const Buttons = ({ tasks, hideDoneTasks }) => {
-    if (tasks.lenght === 0 ) return null;
+    if (tasks.length === 0) {
+        return null;
+    };
+
     return (
         <div className="buttons">
             <button className="buttons__button">
