@@ -14,7 +14,6 @@ const Buttons = ({ tasks, hideDoneTasks }) => {
                 disabled={tasks.every(({ done }) => done)}>
                 Ukończ wszystkie
             </button>
-
         </div>)
 };
 
